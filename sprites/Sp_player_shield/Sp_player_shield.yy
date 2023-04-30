@@ -55,8 +55,8 @@
   },
   "origin": 4,
   "parent": {
-    "name": "Player",
-    "path": "folders/Спрайты/Player.yy",
+    "name": "Shielded",
+    "path": "folders/Спрайты/Player/Shielded.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 7.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,

@@ -13,3 +13,6 @@ global.alive = 1
 // Переменные щита
 time_shield = 600
 shielded = 0
+
+// Переменные улучшения
+lvl = 0

@@ -13,5 +13,8 @@ image_blend = c_red
 // Слой
 spl = layer
 
-//Шанс выпадение щита
+//Шанс выпадение щита & улучшения
 shield_chance = irandom_range(0,100)
+upgrade_chance = irandom_range(0,100)
+
+// Стрельба

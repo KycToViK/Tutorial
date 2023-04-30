@@ -18,5 +18,16 @@ if shield_chance <= 5{
 instance_create_layer(x,y,spl,Shield)
 }
 
+// "Выпадение улучшения" (шанс 10% --> 5% --> 2%)
+if upgrade_chance <= 10 and Player.lvl == 0{
+	instance_create_layer(x,y,spl,BulletUp)
+}
+else if upgrade_chance <= 5 and Player.lvl == 1{
+	instance_create_layer(x,y,spl,BulletUp)
+}
+else if upgrade_chance <= 2 and Player.lvl == 2{
+	instance_create_layer(x,y,spl,BulletUp)
+}
+
 // Уничтожение при попадании пулей
 instance_destroy()
