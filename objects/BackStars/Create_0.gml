@@ -11,3 +11,9 @@ image_angle = random_range(0,360)
 //Прозрачность
 alpha = random_range(0.25,1)
 image_alpha = alpha
+
+// Цвет
+if room == Stage_1
+image_blend = c_white
+else if room == Stage_2
+image_blend = c_aqua
