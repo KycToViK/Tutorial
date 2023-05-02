@@ -1,0 +1,1 @@
+instance_create_layer(512,300,layer,Boss_Bullet_2Stage)

@@ -23,7 +23,7 @@ global.CountEnemySimple++
 
 // Создание Босса
 if(global.CountEnemySimple == 0 and Kills.kills >= 50 and global.BossSpawn == 0){
-	instance_create_layer(spb_x, spb_y, spl, Boss_Simple)
+	instance_create_layer(spb_x, spb_y, spl, Boss_Stage2)
 	global.BossSpawn++
 }
 
